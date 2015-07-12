@@ -58,7 +58,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "Bot Teste",
         language: "portuguese",
-        chatLink: "https://rawgit.com/BotTest/basicBot/master/lang/pt.json",
+        chatLink: "https://rawgit.com/BotTest/BotTestFu/master/lang/pt.json",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
@@ -120,6 +120,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/BotTest/basicBot/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/BotTest/BotTestFu/master/basicBot.js", extend);
 
 }).call(this);
