@@ -69,6 +69,7 @@
         maximumAfk: 60,
         afkRemoval: true,
         maximumDc: 60,
+        thorInterval: 10,
         bouncerPlus: true,
         blacklistEnabled: true,
         lockdownEnabled: false,
